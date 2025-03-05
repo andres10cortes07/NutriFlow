@@ -63,7 +63,7 @@
         app:srcCompat="@drawable/password" />
 
     <TextView
-        android:id="@+id/appTitleLogin"
+        android:id="@+id/appNameProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
@@ -72,11 +72,11 @@
         android:textColor="@color/salmon"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/appIconLogin"
+        app:layout_constraintStart_toEndOf="@+id/appIconProfile"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/appIconLogin"
+        android:id="@+id/appIconProfile"
         android:layout_width="155dp"
         android:layout_height="159dp"
         android:layout_marginLeft="4dp"
@@ -107,7 +107,7 @@
         app:layout_constraintVertical_bias="0.27" />
 
     <Button
-        android:id="@+id/buttonHome"
+        android:id="@+id/buttonLogin"
         android:layout_width="253dp"
         android:layout_height="70dp"
         android:layout_marginBottom="228dp"
@@ -129,7 +129,7 @@
         android:id="@+id/recovPassLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/noto_serif_lao"
         android:text="@string/recuperar_contrasena"
         android:textColor="@color/negro"
@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonHome" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
     <TextView
         android:id="@+id/textNoAccount"
@@ -165,6 +165,7 @@
         android:text="@string/registro"
         android:textColor="@color/salmon"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textNoAccount"
         app:layout_constraintTop_toBottomOf="@+id/googleLogin"
