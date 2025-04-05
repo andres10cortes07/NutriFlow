@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris">
+
+    <!-- Contenido scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="130dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Producto 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/card_producto_en_carrito">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ejemploProductoAccesorios"
+                            android:textStyle="bold"
+                            android:textColor="@color/negro"
+                            android:textSize="16sp"
+                            android:layout_weight="1"/>
+
+                        <Button
+                            android:id="@+id/btnEliminarProducto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🗑️"
+                            android:textSize="20dp"
+                            android:backgroundTint="@color/rojo"
+                            app:strokeColor="@color/blanco"
+                            app:strokeWidth="2dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CANTIDAD: 2"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio unitario: 250.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subtotal: $500.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Producto 2 -->
+            <LinearLayout
+                android:id="@+id/card_producto_en_carrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ejemploProductoHogar"
+                            android:textStyle="bold"
+                            android:textColor="@color/negro"
+                            android:textSize="16sp"
+                            android:layout_weight="1"/>
+
+                        <Button
+                            android:id="@+id/btnEliminarProducto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🗑️"
+                            android:textSize="20dp"
+                            android:backgroundTint="@color/rojo"
+                            app:strokeColor="@color/blanco"
+                            app:strokeWidth="2dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CANTIDAD: 1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio unitario: 12.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subtotal: $12.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Producto 3 -->
+            <LinearLayout
+                android:id="@+id/card_producto_en_carrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ejemploProductoDeporte"
+                            android:textStyle="bold"
+                            android:textColor="@color/negro"
+                            android:textSize="16sp"
+                            android:layout_weight="1"/>
+
+                        <Button
+                            android:id="@+id/btnEliminarProducto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🗑️"
+                            android:textSize="20dp"
+                            android:backgroundTint="@color/rojo"
+                            app:strokeColor="@color/blanco"
+                            app:strokeWidth="2dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CANTIDAD: 1"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio unitario: 120.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subtotal: $12.000"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/negro"
+                        android:textSize="14dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Total de productos fijo abajo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@color/blanco"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total de productos: 14000"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantidad total: 10"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/negro"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/textBtnPagar"
+                android:textSize="20sp"
+                android:textColor="@color/blanco"
+                android:backgroundTint="@color/salmon"
+                app:strokeColor="@color/blanco"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

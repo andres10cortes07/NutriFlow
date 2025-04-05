@@ -1,4 +1,4 @@
-package com.example.nutriflow
+package com.example.nutriflow.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.nutriflow.R
 
 class LoginActivity : AppCompatActivity() {
 
@@ -32,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
         btnLogin.setOnClickListener {
             if (validateCredentials()) {
                 Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, ProfileActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }

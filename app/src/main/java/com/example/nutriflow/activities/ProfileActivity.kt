@@ -1,9 +1,10 @@
-package com.example.nutriflow
+package com.example.nutriflow.activities
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.nutriflow.R
 
 class ProfileActivity : AppCompatActivity() {
 

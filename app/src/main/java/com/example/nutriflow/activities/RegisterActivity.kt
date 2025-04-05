@@ -1,4 +1,4 @@
-package com.example.nutriflow
+package com.example.nutriflow.activities
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,7 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.nutriflow.R
 
 class RegisterActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.example.nutriflow
+package com.example.nutriflow.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.nutriflow.R
 
 class HomeActivity : AppCompatActivity() {
 

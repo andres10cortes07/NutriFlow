@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hogar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hogar"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/negro"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagenProducto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/producto_hogar"
+                android:textColor="@color/negro"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/nombreProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ejemploProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/descProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploDescProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/precioProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploPrecioProductoHogar"
+                    android:textColor="@color/salmon"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/disponibilidadProducto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ejemploDisponiProductoHogar"
+                        android:textColor="@color/negro"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="@color/salmon"
+                        android:text="@string/añadirACarro"
+                        android:textColor="@color/blanco"
+                        android:textSize="12dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagenProducto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/producto_hogar"
+                android:textColor="@color/negro"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/nombreProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ejemploProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/descProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploDescProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/precioProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploPrecioProductoHogar"
+                    android:textColor="@color/salmon"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/disponibilidadProducto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ejemploDisponiProductoHogar"
+                        android:textColor="@color/negro"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="@color/salmon"
+                        android:text="@string/añadirACarro"
+                        android:textColor="@color/blanco"
+                        android:textSize="12dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagenProducto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/producto_hogar"
+                android:textColor="@color/negro"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/nombreProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ejemploProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/descProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploDescProductoHogar"
+                    android:textColor="@color/negro"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/precioProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/ejemploPrecioProductoHogar"
+                    android:textColor="@color/salmon"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/disponibilidadProducto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ejemploDisponiProductoHogar"
+                        android:textColor="@color/negro"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="@color/salmon"
+                        android:text="@string/añadirACarro"
+                        android:textColor="@color/blanco"
+                        android:textSize="12dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/itemInicioFragment">
+
+    <fragment
+        android:id="@+id/itemInicioFragment"
+        android:name="com.example.nutriflow.fragments.InicioFragment"
+        app:defaultNavHost="true"
+        android:label="@string/inicio"/>
+
+    <fragment
+        android:id="@+id/itemPerfilFragment"
+        android:name="com.example.nutriflow.fragments.PerfilFragment"
+        app:defaultNavHost="true"
+        android:label="@string/mi_perfil"/>
+
+    <fragment
+        android:id="@+id/itemEditFragment"
+        android:name="com.example.nutriflow.fragments.EditarPerfilFragment"
+        app:defaultNavHost="true"
+        android:label="@string/edit_perfil"/>
+
+    <fragment
+        android:id="@+id/itemProductosFragment"
+        android:name="com.example.nutriflow.fragments.ProductosFragment"
+        android:label="@string/productos"
+        app:defaultNavHost="true"/>
+
+    <fragment
+        android:id="@+id/itemCategoriasFragment"
+        android:name="com.example.nutriflow.fragments.CategoriasFragment"
+        app:defaultNavHost="true"
+        android:label="@string/categorias"/>
+
+    <fragment
+        android:id="@+id/itemCarritoFragment"
+        android:name="com.example.nutriflow.fragments.CarritoFragment"
+        app:defaultNavHost="true"
+        android:label="@string/carrito"/>
+
+    <fragment
+        android:id="@+id/itemCatElectronicaFragment"
+        android:name="com.example.nutriflow.fragments.CatElectronicaFragment"
+        app:defaultNavHost="true"
+        android:label="@string/electronica"/>
+
+    <fragment
+        android:id="@+id/itemCatRopaFragment"
+        android:name="com.example.nutriflow.fragments.CatRopaFragment"
+        app:defaultNavHost="true"
+        android:label="@string/ropa"/>
+
+    <fragment
+        android:id="@+id/itemCatHogarFragment"
+        android:name="com.example.nutriflow.fragments.CatHogarFragment"
+        app:defaultNavHost="true"
+        android:label="@string/hogar"/>
+
+    <fragment
+        android:id="@+id/itemCatDeportesFragment"
+        android:name="com.example.nutriflow.fragments.CatDeportesFragment"
+        app:defaultNavHost="true"
+        android:label="@string/deportes"/>
+
+    <fragment
+        android:id="@+id/itemCatAccesoriosFragment"
+        android:name="com.example.nutriflow.fragments.CatAccesoriosFragment"
+        app:defaultNavHost="true"
+        android:label="@string/hogar"/>
+
+</navigation>
